@@ -1,0 +1,11 @@
+i.fa-couch {
+  margin: 4px;
+}
+
+i.fa-couch.available:hover {
+  cursor: pointer;
+}
+
+i.fa-couch.unavailable:hover {
+  cursor: not-allowed;
+}

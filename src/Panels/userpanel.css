@@ -1,0 +1,24 @@
+.ticketContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticketselect {
+  text-align: center;
+}
+
+.ticketselect>select {
+  width: 100px;
+}
+
+.ticketselect>select.departure {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 240px) {
+  .ticketselect>select.departure {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,26 @@
+.AdminStationPanel * {
+  box-sizing: border-box;
+}
+
+.AdminStationPanel i:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.deleteicon {
+  color: red;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(0px, -50%);
+}
+
+.deleteicon:hover {
+  color: pink !important;
+}
+
+.station-text {
+  word-break: break-all;
+  padding-right: 11px;
+  display: inline-block;
+}

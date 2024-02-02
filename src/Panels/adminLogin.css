@@ -1,0 +1,7 @@
+.welcometext {
+  margin-bottom: 5px;
+}
+
+.user-pw {
+  -webkit-text-security: disc;
+}

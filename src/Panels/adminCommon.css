@@ -1,0 +1,12 @@
+.menuItemWrapper {
+  display: flex;
+  column-gap: 10px;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  width: 200px;
+}
+
+.menuItemWrapper i:hover {
+  cursor: pointer;
+  color: blue;
+}

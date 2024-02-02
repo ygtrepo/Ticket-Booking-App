@@ -1,0 +1,29 @@
+.ClickToolTip {
+  display: inline-block;
+  position: relative;
+}
+
+.ClickToolTip.sold:hover {
+  cursor: pointer;
+}
+
+.ToolTipBody {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  padding: 2px 10px;
+}
+
+.ShowCount {
+  position: absolute;
+  display: inline;
+  line-height: 1;
+  font-size: 12px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: blue;
+}

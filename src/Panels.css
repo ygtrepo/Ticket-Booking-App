@@ -1,0 +1,54 @@
+.panelWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.panelContainer {
+  text-align: center;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.panelContainer input[type="text"] {
+  margin-bottom: 20px;
+  height: 38px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: normal;
+  color: #111;
+  border-radius: 5px;
+  outline: 0;
+  border-width: 1px;
+  width: 200px;
+  padding: 0px 10px;
+}
+
+.panelContainer input[type="button"] {
+  margin-bottom: 20px;
+  height: 38px;
+  font-size: 15px;
+  line-height: 1;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 200px;
+  color: initial
+}
+
+.panelContainer input[type="button"]:hover {
+  background-color: #ccc;
+}
+
+.panelContainer input[type="button"]:active {
+  background-color: initial;
+}
+
+.panelContainer input[type="button"]:disabled {
+  pointer-events: none;
+}
